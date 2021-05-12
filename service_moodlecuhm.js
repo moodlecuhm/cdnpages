@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 
     .then(function(res) 
     {  
-        console.log('correcto'); 
+        console.log('correcto ok'); 
         // if(res.status == 200) 
         // {
         // //   console.log('resultado post: ' + res.data[0].id);          
