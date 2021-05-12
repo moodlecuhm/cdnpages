@@ -14,13 +14,14 @@ document.addEventListener('DOMContentLoaded', function(event)
     })
 
     .then(function(res) 
-    {   
-        if(res.status == 200) 
-        {
-        //   console.log('resultado post: ' + res.data[0].id);          
-        //   console.log('header: ' + res.headers['x-wp-total']);
-            console.log('correcto');
-        }
+    {  
+        console.log('correcto'); 
+        // if(res.status == 200) 
+        // {
+        // //   console.log('resultado post: ' + res.data[0].id);          
+        // //   console.log('header: ' + res.headers['x-wp-total']);
+        //     console.log('correcto');
+        // }
     })
     
     .catch(function(err) 
