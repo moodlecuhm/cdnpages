@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function(event)
 
     //https://recorrido.cuhm.mx/wp-json/wp/v2/posts?categories=13
 
-    axios.get('https://recorrido.cuhm.mx/744-2/', {
+    axios.get('https://recorrido.cuhm.mx/wp-json/wp/v2/posts?categories=13', {
         headers: {
             'Content-Type': 'application/json',
         }
